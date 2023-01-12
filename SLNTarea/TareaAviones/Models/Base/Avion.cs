@@ -25,7 +25,7 @@ namespace TareaAviones.Models.Base
         {
             return "Despegando...";
         }
-        public virtual string Propiedades()
+        public override string ToString()
         {
             return $"Piloto: {Piloto}, \nCopiloto: {Copiloto}, \nAzafata: {Azafata}";
         }
