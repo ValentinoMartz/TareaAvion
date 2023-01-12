@@ -19,7 +19,7 @@ namespace TareaAviones.Models
 
         public override string ToString()
         {
-            return base.ToString() + $" \nCapacidad: {Capacidad} \nLinea Aerea: {LineaArea}"; 
+            return base.ToString() + $" \nCapacidad: {Capacidad} personas \nLinea Aerea: {LineaArea}"; 
         }
     }
 }

@@ -1,0 +1,14 @@
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\bin\Debug\WindowsAvionesApp.exe.config
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\bin\Debug\WindowsAvionesApp.exe
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\bin\Debug\WindowsAvionesApp.pdb
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\bin\Debug\TareaAviones.dll
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\bin\Debug\TareaAviones.pdb
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.csproj.AssemblyReference.cache
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.csproj.SuggestedBindingRedirects.cache
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.Form1.resources
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.Properties.Resources.resources
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.csproj.GenerateResource.cache
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.csproj.CoreCompileInputs.cache
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.csproj.CopyComplete
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.exe
+D:\Escritorio\Accenture\Programacion Web Net Core\Tarea Avion\SLNTarea\WindowsAvionesApp\obj\Debug\WindowsAvionesApp.pdb

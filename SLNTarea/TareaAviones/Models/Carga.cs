@@ -16,5 +16,10 @@ namespace TareaAviones.Models
         }
         public double Peso { get; set; }
         public string TipoMercaderia { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" \nPeso: {Peso} toneladas \nTipo de Mercaderia: {TipoMercaderia}";
+        }
     }
 }
