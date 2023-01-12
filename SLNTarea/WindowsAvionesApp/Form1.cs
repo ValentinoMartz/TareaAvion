@@ -19,38 +19,32 @@ namespace WindowsAvionesApp
             InitializeComponent();
         }
 
-       
+
 
         private void btnCrearAvionComercial_Click(object sender, EventArgs e)
         {
-            Avion avion = new Comercial("Pepe Gomez", "Pedro Silva", "Florencia Perez", 250, "American Airlines");
-            MessageBox.Show(avion.ToString());
-
+            MessageBox.Show("Avion comercial creado...");
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void btnComercialDespega_Click(object sender, EventArgs e)
         {
             Avion avion = new Comercial("Pepe Gomez", "Pedro Silva", "Florencia Perez", 250, "American Airlines");
             MessageBox.Show(avion.Despega());
-
         }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void btnComercialAterriza_Click(object sender, EventArgs e)
         {
             Avion avion = new Comercial("Pepe Gomez", "Pedro Silva", "Florencia Perez", 250, "American Airlines");
             MessageBox.Show(avion.Aterriza());
         }
-
-        private void button6_Click(object sender, EventArgs e)
+        private void btnComercialToString_Click(object sender, EventArgs e)
         {
-            Avion avion = new Comercial("Pepe Gomez", "Pedro Silva", "Florencia Perez", 250, "American Airlines");
+            Avion avion = new Comercial("Pepe Gomez", "Pedro Silva", "Florencia Perez", 150, "Electronicos");
             MessageBox.Show(avion.ToString());
         }
 
         private void btnCrearAvionCarga_Click(object sender, EventArgs e)
         {
-            Avion avion = new Carga("Pepe Gomez", "Pedro Silva", "Florencia Perez", 150, "Electronicos");
-            MessageBox.Show(avion.ToString());
+            MessageBox.Show("Avion de carga creado....");
         }
 
         private void btnDespegaCarga_Click(object sender, EventArgs e)
@@ -65,10 +59,6 @@ namespace WindowsAvionesApp
             MessageBox.Show(avion.Aterriza());
         }
 
-        private void btnStringCarga_Click(object sender, EventArgs e)
-        {
-            Avion avion = new Carga("Pepe Gomez", "Pedro Silva", "Florencia Perez", 150, "Electronicos");
-            MessageBox.Show(avion.ToString());
-        }
+
     }
 }

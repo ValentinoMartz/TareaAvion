@@ -30,12 +30,11 @@
         {
             this.btnCrearAvionComercial = new System.Windows.Forms.Button();
             this.btnCrearAvionCarga = new System.Windows.Forms.Button();
-            this.btnComercialDespega = new System.Windows.Forms.Button();
-            this.btnComercialAterriza = new System.Windows.Forms.Button();
-            this.btnStringComercial = new System.Windows.Forms.Button();
             this.btnDespegaCarga = new System.Windows.Forms.Button();
             this.btnAterrizaCarga = new System.Windows.Forms.Button();
-            this.btnStringCarga = new System.Windows.Forms.Button();
+            this.btnComercialDespega = new System.Windows.Forms.Button();
+            this.btnComercialAterriza = new System.Windows.Forms.Button();
+            this.btnComercialToString = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnCrearAvionComercial
@@ -58,39 +57,9 @@
             this.btnCrearAvionCarga.UseVisualStyleBackColor = true;
             this.btnCrearAvionCarga.Click += new System.EventHandler(this.btnCrearAvionCarga_Click);
             // 
-            // btnComercialDespega
-            // 
-            this.btnComercialDespega.Location = new System.Drawing.Point(24, 160);
-            this.btnComercialDespega.Name = "btnComercialDespega";
-            this.btnComercialDespega.Size = new System.Drawing.Size(121, 36);
-            this.btnComercialDespega.TabIndex = 3;
-            this.btnComercialDespega.Text = "Despega";
-            this.btnComercialDespega.UseVisualStyleBackColor = true;
-            this.btnComercialDespega.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // btnComercialAterriza
-            // 
-            this.btnComercialAterriza.Location = new System.Drawing.Point(237, 160);
-            this.btnComercialAterriza.Name = "btnComercialAterriza";
-            this.btnComercialAterriza.Size = new System.Drawing.Size(121, 36);
-            this.btnComercialAterriza.TabIndex = 7;
-            this.btnComercialAterriza.Text = "Aterriza";
-            this.btnComercialAterriza.UseVisualStyleBackColor = true;
-            this.btnComercialAterriza.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // btnStringComercial
-            // 
-            this.btnStringComercial.Location = new System.Drawing.Point(438, 160);
-            this.btnStringComercial.Name = "btnStringComercial";
-            this.btnStringComercial.Size = new System.Drawing.Size(121, 36);
-            this.btnStringComercial.TabIndex = 8;
-            this.btnStringComercial.Text = "ToString";
-            this.btnStringComercial.UseVisualStyleBackColor = true;
-            this.btnStringComercial.Click += new System.EventHandler(this.button6_Click);
-            // 
             // btnDespegaCarga
             // 
-            this.btnDespegaCarga.Location = new System.Drawing.Point(24, 388);
+            this.btnDespegaCarga.Location = new System.Drawing.Point(93, 388);
             this.btnDespegaCarga.Name = "btnDespegaCarga";
             this.btnDespegaCarga.Size = new System.Drawing.Size(121, 36);
             this.btnDespegaCarga.TabIndex = 9;
@@ -100,7 +69,7 @@
             // 
             // btnAterrizaCarga
             // 
-            this.btnAterrizaCarga.Location = new System.Drawing.Point(237, 388);
+            this.btnAterrizaCarga.Location = new System.Drawing.Point(389, 388);
             this.btnAterrizaCarga.Name = "btnAterrizaCarga";
             this.btnAterrizaCarga.Size = new System.Drawing.Size(121, 36);
             this.btnAterrizaCarga.TabIndex = 10;
@@ -108,27 +77,46 @@
             this.btnAterrizaCarga.UseVisualStyleBackColor = true;
             this.btnAterrizaCarga.Click += new System.EventHandler(this.btnAterrizaCarga_Click);
             // 
-            // btnStringCarga
+            // btnComercialDespega
             // 
-            this.btnStringCarga.Location = new System.Drawing.Point(438, 388);
-            this.btnStringCarga.Name = "btnStringCarga";
-            this.btnStringCarga.Size = new System.Drawing.Size(121, 36);
-            this.btnStringCarga.TabIndex = 11;
-            this.btnStringCarga.Text = "ToString";
-            this.btnStringCarga.UseVisualStyleBackColor = true;
-            this.btnStringCarga.Click += new System.EventHandler(this.btnStringCarga_Click);
+            this.btnComercialDespega.Location = new System.Drawing.Point(12, 148);
+            this.btnComercialDespega.Name = "btnComercialDespega";
+            this.btnComercialDespega.Size = new System.Drawing.Size(121, 36);
+            this.btnComercialDespega.TabIndex = 11;
+            this.btnComercialDespega.Text = "Despega";
+            this.btnComercialDespega.UseVisualStyleBackColor = true;
+            this.btnComercialDespega.Click += new System.EventHandler(this.btnComercialDespega_Click);
+            // 
+            // btnComercialAterriza
+            // 
+            this.btnComercialAterriza.Location = new System.Drawing.Point(243, 148);
+            this.btnComercialAterriza.Name = "btnComercialAterriza";
+            this.btnComercialAterriza.Size = new System.Drawing.Size(121, 36);
+            this.btnComercialAterriza.TabIndex = 12;
+            this.btnComercialAterriza.Text = "Aterriza";
+            this.btnComercialAterriza.UseVisualStyleBackColor = true;
+            this.btnComercialAterriza.Click += new System.EventHandler(this.btnComercialAterriza_Click);
+            // 
+            // btnComercialToString
+            // 
+            this.btnComercialToString.Location = new System.Drawing.Point(462, 148);
+            this.btnComercialToString.Name = "btnComercialToString";
+            this.btnComercialToString.Size = new System.Drawing.Size(121, 36);
+            this.btnComercialToString.TabIndex = 13;
+            this.btnComercialToString.Text = "ToString";
+            this.btnComercialToString.UseVisualStyleBackColor = true;
+            this.btnComercialToString.Click += new System.EventHandler(this.btnComercialToString_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(595, 474);
-            this.Controls.Add(this.btnStringCarga);
-            this.Controls.Add(this.btnAterrizaCarga);
-            this.Controls.Add(this.btnDespegaCarga);
-            this.Controls.Add(this.btnStringComercial);
+            this.Controls.Add(this.btnComercialToString);
             this.Controls.Add(this.btnComercialAterriza);
             this.Controls.Add(this.btnComercialDespega);
+            this.Controls.Add(this.btnAterrizaCarga);
+            this.Controls.Add(this.btnDespegaCarga);
             this.Controls.Add(this.btnCrearAvionCarga);
             this.Controls.Add(this.btnCrearAvionComercial);
             this.Name = "Form1";
@@ -140,12 +128,11 @@
         #endregion
         private System.Windows.Forms.Button btnCrearAvionComercial;
         private System.Windows.Forms.Button btnCrearAvionCarga;
-        private System.Windows.Forms.Button btnComercialDespega;
-        private System.Windows.Forms.Button btnComercialAterriza;
-        private System.Windows.Forms.Button btnStringComercial;
         private System.Windows.Forms.Button btnDespegaCarga;
         private System.Windows.Forms.Button btnAterrizaCarga;
-        private System.Windows.Forms.Button btnStringCarga;
+        private System.Windows.Forms.Button btnComercialDespega;
+        private System.Windows.Forms.Button btnComercialAterriza;
+        private System.Windows.Forms.Button btnComercialToString;
     }
 }
 
